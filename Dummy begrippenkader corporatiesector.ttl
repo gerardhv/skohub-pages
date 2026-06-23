@@ -19,9 +19,10 @@ bcs-schema:BegrippenkaderCorporatiesector a skos:ConceptScheme ;
     dct:publisher "Aedes, vereniging van woningcorporaties"@nl ;
     dct:created "2026-04-01"^^xsd:date ;
     dct:modified "2026-06-23"^^xsd:date ;
-    dct:language "nl" ;
-    dct:rights "© Aedes 2026."@nl ;
+    dct:language "nl"^^xsd:language ;
+    dct:rights "© Aedes 2026. Gebruik conform open data-licentie."@nl ;
     owl:versionInfo "0.1 (illustratieve voorbeeldversie)" ;
+    skos:prefLabel "Begrippenkader Corporatiesector"@nl ;
     skos:hasTopConcept
         bcs:ToegelegatenInstelling ,
         bcs:Volkshuisvesting ,
@@ -234,6 +235,7 @@ bcs:Ketenpartner a skos:Concept ;
 
 bcs:Woningwet a skos:Concept ;
     skos:prefLabel "Woningwet"@nl ;
+    skos:topConceptOf bcs-schema:BegrippenkaderCorporatiesector ;
     skos:definition "De wet die de taken, bevoegdheden en het toezicht van toegelaten instellingen regelt, inclusief de scheiding van DAEB en niet-DAEB activiteiten."@nl ;
     skos:scopeNote "De Woningwet (BWBR0005181) vormt de primaire juridische grondslag voor het handelen van woningcorporaties. De wet bevat bepalingen over het werkgebied, de toegestane activiteiten, het toezicht door de Autoriteit Woningcorporaties en de verantwoordingsplichten."@nl ;
     dct:source <https://wetten.overheid.nl/BWBR0005181> ;
@@ -315,6 +317,7 @@ bcs:DAEB a skos:Concept ;
     skos:scopeNote "DAEB-activiteiten moeten worden gescheiden van niet-DAEB-activiteiten. De grens voor sociale huurwoningen ligt bij de liberalisatiegrens. Corporaties ontvangen voor DAEB-activiteiten staatssteun in de vorm van garanties via het WSW en soms directe subsidies."@nl ;
     dct:source <https://wetten.overheid.nl/BWBR0036741> ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
+    skos:broader bcs:Volkshuisvesting ;
     skos:narrower bcs:DAEBTak , bcs:DAEBWoongelegenheid , bcs:DAEBComplex ;
     skos:related bcs:NietDAEB , bcs:Liberalisatiegrens , bcs:SocialeHuurwoning .
 
@@ -330,14 +333,14 @@ bcs:DAEBTak a skos:Concept ;
     skos:prefLabel "DAEB-tak"@nl ;
     skos:definition "Het administratief of juridisch afgescheiden onderdeel van een woningcorporatie dat de DAEB-activiteiten uitvoert en waarop het DAEB-regime van toepassing is."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:broader bcs:ToegelegatenInstelling ;
+    skos:broader bcs:ToegelegatenInstelling , bcs:DAEB ;
     skos:related bcs:DAEB , bcs:NietDAEBTak .
 
 bcs:NietDAEBTak a skos:Concept ;
     skos:prefLabel "Niet-DAEB-tak"@nl ;
     skos:definition "Het administratief of juridisch afgescheiden onderdeel van een woningcorporatie dat de niet-DAEB-activiteiten uitvoert zonder staatssteun."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:broader bcs:ToegelegatenInstelling ;
+    skos:broader bcs:ToegelegatenInstelling , bcs:NietDAEB ;
     skos:related bcs:NietDAEB , bcs:DAEBTak .
 
 bcs:SocialeHuurwoning a skos:Concept ;
@@ -348,7 +351,7 @@ bcs:SocialeHuurwoning a skos:Concept ;
     dct:source <https://wetten.overheid.nl/BWBR0005181> ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
     skos:topConceptOf bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:broader bcs:ZelfstandigeWoonruimte ;
+    skos:broader bcs:ZelfstandigeWoonruimte , bcs:Volkshuisvesting ;
     skos:related bcs:Liberalisatiegrens , bcs:DAEB , bcs:PassendToewijzen .
 
 bcs:Verbinding a skos:Concept ;
@@ -619,13 +622,15 @@ bcs:DAEBWoongelegenheid a skos:Concept ;
     skos:prefLabel "DAEB-woongelegenheid"@nl ;
     skos:definition "Een woonruimte die onder het DAEB-regime valt vanwege een huurprijs onder de liberalisatiegrens."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:related bcs:DAEB , bcs:SocialeHuurwoning , bcs:Liberalisatiegrens .
+    skos:broader bcs:DAEB ;
+    skos:related bcs:SocialeHuurwoning , bcs:Liberalisatiegrens .
 
 bcs:NietDAEBWoongelegenheid a skos:Concept ;
     skos:prefLabel "Niet-DAEB-woongelegenheid"@nl ;
     skos:definition "Een woonruimte met een huurprijs gelijk aan of hoger dan de liberalisatiegrens, die buiten het DAEB-regime valt en vrij verhuurd mag worden."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:related bcs:NietDAEB , bcs:Liberalisatiegrens .
+    skos:broader bcs:NietDAEB ;
+    skos:related bcs:Liberalisatiegrens .
 
 # ============================================================
 # EENHEDEN, COMPLEXEN EN PORTEFEUILLE
@@ -655,14 +660,14 @@ bcs:DAEBComplex a skos:Concept ;
     skos:prefLabel "DAEB-complex"@nl ;
     skos:definition "Een complex dat uitsluitend of overwegend bestaat uit DAEB-woongelegenheden en dat voor administratieve scheiding wordt toegerekend aan de DAEB-tak."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:broader bcs:Complex ;
+    skos:broader bcs:Complex , bcs:DAEB ;
     skos:related bcs:DAEB , bcs:DAEBTak .
 
 bcs:NietDAEBComplex a skos:Concept ;
     skos:prefLabel "Niet-DAEB-complex"@nl ;
     skos:definition "Een complex dat uitsluitend of overwegend bestaat uit niet-DAEB-woongelegenheden en dat voor administratieve scheiding wordt toegerekend aan de niet-DAEB-tak."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
-    skos:broader bcs:Complex ;
+    skos:broader bcs:Complex , bcs:NietDAEB ;
     skos:related bcs:NietDAEB , bcs:NietDAEBTak .
 
 bcs:Vastgoedportefeuille a skos:Concept ;
@@ -830,7 +835,7 @@ bcs:Brutohuur a skos:Concept ;
 
 bcs:Streefhuur a skos:Concept ;
     skos:prefLabel "Streefhuur"@nl ;
-    skos:definition "De door een woningcorporatie intern vastgestelde doelhuurprijs voor een woning, uitgedrukt als percentage van de maximale huurprijs op basis van het WWS, waarnaar de huurprijs op termijn toegroeит."@nl ;
+    skos:definition "De door een woningcorporatie intern vastgestelde doelhuurprijs voor een woning, uitgedrukt als percentage van de maximale huurprijs op basis van het WWS, waarnaar de huurprijs op termijn toegroeit."@nl ;
     skos:scopeNote "De streefhuur bepaalt de beleidswaarde van het vastgoed en is een beleidsinstrument van de corporatie. Een lagere streefhuur leidt tot een lagere beleidswaarde maar heeft een positief effect op betaalbaarheid."@nl ;
     skos:inScheme bcs-schema:BegrippenkaderCorporatiesector ;
     skos:broader bcs:Huurprijs ;
