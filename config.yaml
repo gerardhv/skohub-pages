@@ -10,9 +10,10 @@ searchableAttributes:
   - "hiddenLabel"
   - "example"
   - "definition"
+  - "scopeNote"
 ui:
-  title: "Aedes SkoHub" # Title is mandatory
-  logo: "skohub-signet-color.svg" # Path
+  title: "Aedes vocabulary" # Title is mandatory
+  logo: "aedes.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
@@ -36,4 +37,9 @@ ui:
       font_style: "normal"
       font_weight: 700
       name: "ubuntu-v20-latin-700"
-
+  footer:
+    links:
+      - title: "Aedes Datastandaarden"
+        url: "https://www.aedesdatastandaarden.nl"
+        target: "_blank"
+        rel: "noopener noreferrer"
