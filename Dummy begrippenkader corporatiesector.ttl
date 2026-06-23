@@ -20,7 +20,7 @@ bcs-schema:BegrippenkaderCorporatiesector a skos:ConceptScheme ;
     dct:created "2026-04-01"^^xsd:date ;
     dct:modified "2026-06-23"^^xsd:date ;
     dct:language "nl" ;
-    dct:rights "© Aedes 2026. Gebruik conform open data-licentie."@nl ;
+    dct:rights "© Aedes 2026."@nl ;
     owl:versionInfo "0.1 (illustratieve voorbeeldversie)" ;
     skos:hasTopConcept
         bcs:ToegelegatenInstelling ,
