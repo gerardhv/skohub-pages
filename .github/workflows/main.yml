@@ -127,6 +127,9 @@ jobs:
           -e GATSBY_RESPOSITORY_URL=https://github.com/$GITHUB_REPOSITORY
           skohub/skohub-vocabs-docker:latest
 
+      - name: Copy static assets (logo)
+        run: cp data/aedes.png public/img/aedes.png
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
