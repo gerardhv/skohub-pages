@@ -22,92 +22,102 @@ bgcs:begrippenkader-corporatiesector a skos:ConceptScheme ;
     dct:created "2026-07-06"^^xsd:date ;
     dct:modified "2026-07-07"^^xsd:date ;
     dct:language "nl" ;
-    skos:note "Basisversie 0.2, concept ter review. Wijzigingen t.o.v. 0.1: bronvermeldingen genormaliseerd in drie herkomstcategorieën (overgenomen uit / afgeleid van / eigen definitie); correcties rond de liberalisatiegrens na toetsing aan de circulaire Huurprijsbeleid MG 2026-01 en de Datawonen-begrippenlijst."@nl ;
     skos:hasTopConcept
-        bgcc:actoren-en-doelgroepen,
-        bgcc:wet-en-regelgeving,
-        bgcc:daeb-en-toewijzing,
-        bgcc:huurovereenkomst-en-huurprijs,
-        bgcc:vastgoed,
-        bgcc:verhuurproces-en-beheer,
-        bgcc:sturing-en-verantwoording .
+        bgc:verhuurder,
+        bgc:huurder,
+        bgc:bewoner,
+        bgc:huishouden,
+        bgc:woningzoekende,
+        bgc:doelgroep,
+        bgc:woningwet,
+        bgc:besluit-toegelaten-instellingen-volkshuisvesting,
+        bgc:regeling-toegelaten-instellingen-volkshuisvesting,
+        bgc:huisvestingswet-2014,
+        bgc:wet-betaalbare-huur,
+        bgc:woningwaarderingsstelsel,
+        bgc:diensten-van-algemeen-economisch-belang,
+        bgc:niet-daeb,
+        bgc:toewijzing,
+        bgc:passend-toewijzen,
+        bgc:passendheidstoets,
+        bgc:inkomensgrens,
+        bgc:huishoudinkomen,
+        bgc:huurovereenkomst,
+        bgc:huurprijs,
+        bgc:bruto-huur,
+        bgc:rekenhuur,
+        bgc:servicekosten,
+        bgc:streefhuur,
+        bgc:maximale-huurprijs,
+        bgc:liberalisatiegrens,
+        bgc:aftoppingsgrens,
+        bgc:gereguleerde-huurwoning,
+        bgc:geliberaliseerde-huurwoning,
+        bgc:huurverhoging,
+        bgc:huurtoeslag,
+        bgc:vastgoed,
+        bgc:woonruimte,
+        bgc:verhuureenheid,
+        bgc:pand,
+        bgc:verblijfsobject,
+        bgc:nieuwbouw,
+        bgc:sloop,
+        bgc:renovatie,
+        bgc:onderhoud,
+        bgc:verduurzaming,
+        bgc:mutatie,
+        bgc:leegstand,
+        bgc:volkshuisvestelijke-prestatie,
+        bgc:prestatieafspraak,
+        bgc:leefbaarheid,
+        bgc:de-verantwoordingsinformatie,
+        bgc:de-prospectieve-informatie,
+        bgc:marktwaarde,
+        bgc:beleidswaarde ;
+    skos:note "Basisversie 0.2, concept ter review. Wijzigingen t.o.v. 0.1: bronvermeldingen genormaliseerd in drie herkomstcategorieën (overgenomen uit / afgeleid van / eigen definitie); correcties rond de liberalisatiegrens na toetsing aan de circulaire Huurprijsbeleid MG 2026-01 en de Datawonen-begrippenlijst."@nl .
 
 #################################################################
-# Collecties (clusters / topconcepten voor navigatie)
+# Collecties (clusters)
 #################################################################
 
-bgcc:actoren-en-doelgroepen a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:actoren-en-doelgroepen a skos:Collection ;
     skos:prefLabel "Actoren en doelgroepen"@nl ;
     skos:member bgc:woningcorporatie, bgc:verhuurder, bgc:huurder, bgc:bewoner,
-        bgc:huishouden, bgc:woningzoekende, bgc:doelgroep ;
-    skos:narrower bgc:woningcorporatie, bgc:verhuurder, bgc:huurder, bgc:bewoner,
         bgc:huishouden, bgc:woningzoekende, bgc:doelgroep .
 
-bgcc:wet-en-regelgeving a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:wet-en-regelgeving a skos:Collection ;
     skos:prefLabel "Wet- en regelgeving"@nl ;
     skos:member bgc:woningwet, bgc:besluit-toegelaten-instellingen-volkshuisvesting,
         bgc:regeling-toegelaten-instellingen-volkshuisvesting, bgc:huisvestingswet-2014,
-        bgc:wet-betaalbare-huur, bgc:woningwaarderingsstelsel ;
-    skos:narrower bgc:woningwet, bgc:besluit-toegelaten-instellingen-volkshuisvesting,
-        bgc:regeling-toegelaten-instellingen-volkshuisvesting, bgc:huisvestingswet-2014,
         bgc:wet-betaalbare-huur, bgc:woningwaarderingsstelsel .
 
-bgcc:daeb-en-toewijzing a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:daeb-en-toewijzing a skos:Collection ;
     skos:prefLabel "DAEB en toewijzing"@nl ;
     skos:member bgc:diensten-van-algemeen-economisch-belang, bgc:niet-daeb,
         bgc:sociale-huurwoning, bgc:toewijzing, bgc:passend-toewijzen, bgc:passendheidstoets,
-        bgc:inkomensgrens, bgc:huishoudinkomen ;
-    skos:narrower bgc:diensten-van-algemeen-economisch-belang, bgc:niet-daeb,
-        bgc:sociale-huurwoning, bgc:toewijzing, bgc:passend-toewijzen, bgc:passendheidstoets,
         bgc:inkomensgrens, bgc:huishoudinkomen .
 
-bgcc:huurovereenkomst-en-huurprijs a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:huurovereenkomst-en-huurprijs a skos:Collection ;
     skos:prefLabel "Huurovereenkomst en huurprijs"@nl ;
     skos:member bgc:huurovereenkomst, bgc:huurprijs, bgc:bruto-huur, bgc:rekenhuur,
         bgc:servicekosten, bgc:streefhuur, bgc:maximale-huurprijs, bgc:liberalisatiegrens,
         bgc:aftoppingsgrens, bgc:gereguleerde-huurwoning, bgc:geliberaliseerde-huurwoning,
-        bgc:huurverhoging, bgc:inkomensafhankelijke-huurverhoging, bgc:huurtoeslag ;
-    skos:narrower bgc:huurovereenkomst, bgc:huurprijs, bgc:bruto-huur, bgc:rekenhuur,
-        bgc:servicekosten, bgc:streefhuur, bgc:maximale-huurprijs, bgc:liberalisatiegrens,
-        bgc:aftoppingsgrens, bgc:gereguleerde-huurwoning, bgc:geliberaliseerde-huurwoning,
         bgc:huurverhoging, bgc:inkomensafhankelijke-huurverhoging, bgc:huurtoeslag .
 
-bgcc:vastgoed a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:vastgoed a skos:Collection ;
     skos:prefLabel "Vastgoed"@nl ;
     skos:member bgc:vastgoed, bgc:woongelegenheid, bgc:woning, bgc:woonruimte,
         bgc:zelfstandige-woning, bgc:onzelfstandige-woonruimte, bgc:verhuureenheid, bgc:complex,
         bgc:pand, bgc:verblijfsobject, bgc:nieuwbouw, bgc:vervangende-nieuwbouw, bgc:sloop,
-        bgc:renovatie, bgc:onderhoud, bgc:verduurzaming ;
-    skos:narrower bgc:vastgoed, bgc:woongelegenheid, bgc:woning, bgc:woonruimte,
-        bgc:zelfstandige-woning, bgc:onzelfstandige-woonruimte, bgc:verhuureenheid, bgc:complex,
-        bgc:pand, bgc:verblijfsobject, bgc:nieuwbouw, bgc:vervangende-nieuwbouw, bgc:sloop,
         bgc:renovatie, bgc:onderhoud, bgc:verduurzaming .
 
-bgcc:verhuurproces-en-beheer a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:verhuurproces-en-beheer a skos:Collection ;
     skos:prefLabel "Verhuurproces en beheer"@nl ;
-    skos:member bgc:mutatie, bgc:leegstand ;
-    skos:narrower bgc:mutatie, bgc:leegstand .
+    skos:member bgc:mutatie, bgc:leegstand .
 
-bgcc:sturing-en-verantwoording a skos:Concept, skos:Collection ;
-    skos:inScheme bgcs:begrippenkader-corporatiesector ;
-    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
+bgcc:sturing-en-verantwoording a skos:Collection ;
     skos:prefLabel "Sturing en verantwoording"@nl ;
     skos:member bgc:volkshuisvestelijke-prestatie, bgc:prestatieafspraak, bgc:leefbaarheid,
-        bgc:de-verantwoordingsinformatie, bgc:de-prospectieve-informatie,
-        bgc:marktwaarde, bgc:beleidswaarde ;
-    skos:narrower bgc:volkshuisvestelijke-prestatie, bgc:prestatieafspraak, bgc:leefbaarheid,
         bgc:de-verantwoordingsinformatie, bgc:de-prospectieve-informatie,
         bgc:marktwaarde, bgc:beleidswaarde .
 
@@ -127,6 +137,7 @@ bgc:woningcorporatie a skos:Concept ;
 
 bgc:verhuurder a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "verhuurder"@nl ;
     skos:definition "Partij die op grond van een huurovereenkomst een woonruimte of andere onroerende zaak in gebruik geeft aan een huurder."@nl ;
     rdfs:comment "In de corporatiesector is de verhuurder meestal een woningcorporatie, maar het begrip omvat ook particuliere en commerciële verhuurders."@nl ;
@@ -136,6 +147,7 @@ bgc:verhuurder a skos:Concept ;
 
 bgc:huurder a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huurder"@nl ;
     skos:definition "Partij die op grond van een huurovereenkomst tegen betaling het gebruik van een woonruimte of andere onroerende zaak heeft."@nl ;
     rdfs:comment "De huurder is degene met wie de huurovereenkomst is gesloten. Medebewoners, zoals partners of kinderen, zijn bewoners maar zijn alleen huurder als zij (mede)ondertekenaar of wettelijk medehuurder zijn."@nl ;
@@ -145,6 +157,7 @@ bgc:huurder a skos:Concept ;
 
 bgc:bewoner a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "bewoner"@nl ;
     skos:definition "Huurder en degene die met instemming van de huurder zijn hoofdverblijf in de woongelegenheid heeft."@nl ;
     rdfs:comment "Alle mensen die met goedkeuring in de woning wonen zijn bewoners; de huurder is daar één van. Het begrip is onder meer van belang bij het bepalen van het huishoudinkomen."@nl ;
@@ -153,6 +166,7 @@ bgc:bewoner a skos:Concept ;
 
 bgc:huishouden a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huishouden"@nl ;
     skos:definition "Alleenstaande, dan wel twee of meer personen die een duurzame gemeenschappelijke huishouding voeren of willen gaan voeren."@nl ;
     rdfs:comment "Een huishouden kan uit één persoon bestaan of uit meerdere personen die samen wonen en samen het dagelijks leven delen, zoals partners of een gezin."@nl ;
@@ -162,6 +176,7 @@ bgc:huishouden a skos:Concept ;
 
 bgc:woningzoekende a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "woningzoekende"@nl ;
     skos:definition "Huishouden dat op zoek is naar woonruimte."@nl ;
     rdfs:comment "In woonruimteverdeelsystemen is een woningzoekende meestal een huishouden dat staat ingeschreven om voor een woning in aanmerking te komen."@nl ;
@@ -170,6 +185,7 @@ bgc:woningzoekende a skos:Concept ;
 
 bgc:doelgroep a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "doelgroep"@nl ;
     skos:definition "Groep huishoudens waarop het volkshuisvestingsbeleid of een specifieke regeling zich richt."@nl ;
     rdfs:comment "Zonder nadere aanduiding wordt in de corporatiesector met de doelgroep meestal bedoeld: huishoudens met een inkomen tot de inkomensgrens voor sociale huurwoningen."@nl ;
@@ -183,6 +199,7 @@ bgc:doelgroep a skos:Concept ;
 
 bgc:woningwet a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "Woningwet"@nl ;
     skos:definition "Wet die het stelsel van de volkshuisvesting regelt, waaronder de toelating van, het werkdomein van en het toezicht op woningcorporaties."@nl ;
     rdfs:comment "De Woningwet is de basiswet voor woningcorporaties. De wet bepaalt onder meer wat corporaties wel en niet mogen doen, hoe het toezicht is geregeld en hoe corporaties samenwerken met gemeenten en huurdersorganisaties."@nl ;
@@ -191,6 +208,7 @@ bgc:woningwet a skos:Concept ;
 
 bgc:besluit-toegelaten-instellingen-volkshuisvesting a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "Besluit toegelaten instellingen volkshuisvesting"@nl ;
     skos:altLabel "BTIV"@nl, "BTIV 2015"@nl ;
     skos:definition "Algemene maatregel van bestuur die de Woningwet nader uitwerkt, onder meer op het gebied van toewijzing, de scheiding tussen DAEB en niet-DAEB en de verantwoording."@nl ;
@@ -200,6 +218,7 @@ bgc:besluit-toegelaten-instellingen-volkshuisvesting a skos:Concept ;
 
 bgc:regeling-toegelaten-instellingen-volkshuisvesting a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "Regeling toegelaten instellingen volkshuisvesting"@nl ;
     skos:altLabel "RTIV"@nl ;
     skos:definition "Ministeriële regeling die het Besluit toegelaten instellingen volkshuisvesting nader uitwerkt, onder meer met voorschriften voor de verantwoordings- en prognose-informatie."@nl ;
@@ -209,6 +228,7 @@ bgc:regeling-toegelaten-instellingen-volkshuisvesting a skos:Concept ;
 
 bgc:huisvestingswet-2014 a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "Huisvestingswet 2014"@nl ;
     skos:altLabel "Huisvestingswet"@nl ;
     skos:definition "Wet die gemeenten instrumenten geeft voor de verdeling van woonruimte en het beheer van de woonruimtevoorraad."@nl ;
@@ -218,6 +238,7 @@ bgc:huisvestingswet-2014 a skos:Concept ;
 
 bgc:wet-betaalbare-huur a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "Wet betaalbare huur"@nl ;
     skos:definition "Wet die de huurprijsbescherming uitbreidt naar het middenhuursegment en de toepassing van het woningwaarderingsstelsel dwingend maakt."@nl ;
     rdfs:comment "Sinds deze wet (1 juli 2024) geldt de maximale huurprijs op basis van het puntenstelsel voor een groter deel van de huurwoningen en zijn verhuurders verplicht zich daaraan te houden."@nl ;
@@ -226,6 +247,7 @@ bgc:wet-betaalbare-huur a skos:Concept ;
 
 bgc:woningwaarderingsstelsel a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "woningwaarderingsstelsel"@nl ;
     skos:altLabel "WWS"@nl, "puntenstelsel"@nl, "puntensysteem"@nl ;
     skos:definition "Stelsel waarmee de kwaliteit van een woonruimte in punten wordt gewaardeerd en waarmee de maximale huurprijs van die woonruimte wordt bepaald."@nl ;
@@ -239,6 +261,7 @@ bgc:woningwaarderingsstelsel a skos:Concept ;
 
 bgc:diensten-van-algemeen-economisch-belang a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "diensten van algemeen economisch belang"@nl ;
     skos:altLabel "DAEB"@nl ;
     skos:definition "Door de overheid aangewezen diensten met een publiek belang waarvoor woningcorporaties compensatie mogen ontvangen, waaronder het bouwen, verhuren en beheren van sociale huurwoningen, het beheren van bepaald maatschappelijk vastgoed en het bijdragen aan leefbaarheid."@nl ;
@@ -248,6 +271,7 @@ bgc:diensten-van-algemeen-economisch-belang a skos:Concept ;
 
 bgc:niet-daeb a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "niet-DAEB"@nl ;
     skos:definition "Activiteiten en vastgoed van een woningcorporatie die buiten de diensten van algemeen economisch belang vallen, zoals geliberaliseerde huurwoningen en commercieel vastgoed."@nl ;
     rdfs:comment "Corporaties mogen beperkt niet-DAEB-activiteiten uitvoeren, zonder staatssteun en administratief of juridisch gescheiden van de DAEB-tak."@nl ;
@@ -266,6 +290,7 @@ bgc:sociale-huurwoning a skos:Concept ;
 
 bgc:toewijzing a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "toewijzing"@nl ;
     skos:definition "Besluit van een verhuurder om een woonruimte aan een specifieke woningzoekende te verhuren."@nl ;
     rdfs:comment "Bij corporaties verloopt toewijzing meestal via een woonruimteverdeelsysteem en gelden wettelijke regels, zoals inkomensgrenzen en passend toewijzen."@nl ;
@@ -274,6 +299,7 @@ bgc:toewijzing a skos:Concept ;
 
 bgc:passend-toewijzen a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "passend toewijzen"@nl ;
     skos:altLabel "passendheidsnorm"@nl ;
     skos:definition "Wettelijke verplichting van woningcorporaties om aan ten minste 95% van de huishoudens met recht op huurtoeslag een woning toe te wijzen met een huurprijs tot en met de voor dat huishouden toepasselijke aftoppingsgrens."@nl ;
@@ -283,6 +309,7 @@ bgc:passend-toewijzen a skos:Concept ;
 
 bgc:passendheidstoets a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "passendheidstoets"@nl ;
     skos:definition "Controle voorafgaand aan de toewijzing of de huurprijs van de woning past bij het inkomen en de samenstelling van het huishouden."@nl ;
     rdfs:comment "Met de passendheidstoets voert de corporatie de norm voor passend toewijzen uit. Het huishouden levert daarvoor inkomensgegevens aan."@nl ;
@@ -291,6 +318,7 @@ bgc:passendheidstoets a skos:Concept ;
 
 bgc:inkomensgrens a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "inkomensgrens"@nl ;
     skos:altLabel "DAEB-inkomensgrens"@nl ;
     skos:definition "Bedrag van het huishoudinkomen tot waar een huishouden behoort tot de doelgroep voor toewijzing van sociale huurwoningen."@nl ;
@@ -300,6 +328,7 @@ bgc:inkomensgrens a skos:Concept ;
 
 bgc:huishoudinkomen a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huishoudinkomen"@nl ;
     skos:definition "Gezamenlijk verzamelinkomen van de bewoners van een woongelegenheid, met uitzondering van het inkomen van inwonende kinderen voor zover de wet dat bepaalt."@nl ;
     rdfs:comment "Het huishoudinkomen bepaalt onder meer of een huishouden binnen de inkomensgrens valt en of een inkomensafhankelijke huurverhoging mogelijk is."@nl ;
@@ -312,6 +341,7 @@ bgc:huishoudinkomen a skos:Concept ;
 
 bgc:huurovereenkomst a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huurovereenkomst"@nl ;
     skos:altLabel "huurcontract"@nl ;
     skos:definition "Overeenkomst waarbij de verhuurder zich verbindt aan de huurder een zaak of een gedeelte daarvan in gebruik te verstrekken en de huurder zich verbindt tot een tegenprestatie."@nl ;
@@ -321,6 +351,7 @@ bgc:huurovereenkomst a skos:Concept ;
 
 bgc:huurprijs a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huurprijs"@nl ;
     skos:altLabel "kale huur"@nl, "netto huur"@nl, "nettohuur"@nl ;
     skos:definition "Prijs die bij huur en verhuur is verschuldigd voor het enkele gebruik van de woonruimte, uitgedrukt in een bedrag per maand."@nl ;
@@ -330,6 +361,7 @@ bgc:huurprijs a skos:Concept ;
 
 bgc:bruto-huur a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "bruto huur"@nl ;
     skos:altLabel "brutohuur"@nl ;
     skos:definition "Som van de huurprijs en de servicekosten die de huurder periodiek aan de verhuurder betaalt."@nl ;
@@ -340,6 +372,7 @@ bgc:bruto-huur a skos:Concept ;
 
 bgc:rekenhuur a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "rekenhuur"@nl ;
     skos:altLabel "subsidiabele huur"@nl ;
     skos:definition "Huurprijs vermeerderd met een wettelijk bepaald deel van de servicekosten, gebruikt voor de berekening van de huurtoeslag."@nl ;
@@ -349,6 +382,7 @@ bgc:rekenhuur a skos:Concept ;
 
 bgc:servicekosten a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "servicekosten"@nl ;
     skos:definition "Vergoeding voor de overige zaken en diensten die de verhuurder levert in verband met de bewoning van de woonruimte."@nl ;
     rdfs:comment "Voorbeelden zijn schoonmaak van gemeenschappelijke ruimten, glasbewassing en de huismeester. De verhuurder rekent servicekosten jaarlijks af op basis van de werkelijke kosten."@nl ;
@@ -357,6 +391,7 @@ bgc:servicekosten a skos:Concept ;
 
 bgc:streefhuur a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "streefhuur"@nl ;
     skos:definition "Huurprijs waarnaar de woningcorporatie voor een verhuureenheid streeft op grond van haar huurbeleid."@nl ;
     rdfs:comment "De streefhuur wordt vaak uitgedrukt als percentage van de maximale huurprijs volgens het woningwaarderingsstelsel. Bij mutatie wordt de huurprijs van de nieuwe verhuring op de streefhuur gezet."@nl ;
@@ -365,6 +400,7 @@ bgc:streefhuur a skos:Concept ;
 
 bgc:maximale-huurprijs a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "maximale huurprijs"@nl ;
     skos:altLabel "maximaal redelijke huurprijs"@nl, "maximale huurprijsgrens"@nl ;
     skos:definition "Hoogste huurprijs die voor een woonruimte gevraagd mag worden op grond van het puntentotaal van het woningwaarderingsstelsel."@nl ;
@@ -374,6 +410,7 @@ bgc:maximale-huurprijs a skos:Concept ;
 
 bgc:liberalisatiegrens a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "liberalisatiegrens"@nl ;
     skos:altLabel "middenhuurgrens"@nl ;
     skos:definition "Huurprijsgrens die bepaalt of een huurovereenkomst voor een zelfstandige woning bij aanvang tot het gereguleerde dan wel het geliberaliseerde segment behoort."@nl ;
@@ -384,6 +421,7 @@ bgc:liberalisatiegrens a skos:Concept ;
 
 bgc:aftoppingsgrens a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "aftoppingsgrens"@nl ;
     skos:definition "Huurprijsgrens uit de Wet op de huurtoeslag waarboven de huurtoeslag voor het meerdere wordt beperkt, afhankelijk van de omvang van het huishouden."@nl ;
     rdfs:comment "Er gelden verschillende aftoppingsgrenzen voor een- en tweepersoonshuishoudens en voor grotere huishoudens. De aftoppingsgrens is bepalend voor passend toewijzen."@nl ;
@@ -392,6 +430,7 @@ bgc:aftoppingsgrens a skos:Concept ;
 
 bgc:gereguleerde-huurwoning a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "gereguleerde huurwoning"@nl ;
     skos:altLabel "gereguleerde woning"@nl ;
     skos:definition "Woonruimte waarvan de huurprijs onder de wettelijke huurprijsbescherming van het woningwaarderingsstelsel valt."@nl ;
@@ -401,6 +440,7 @@ bgc:gereguleerde-huurwoning a skos:Concept ;
 
 bgc:geliberaliseerde-huurwoning a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "geliberaliseerde huurwoning"@nl ;
     skos:altLabel "vrijesectorwoning"@nl, "vrije-sectorhuurwoning"@nl ;
     skos:definition "Zelfstandige woning met een huurovereenkomst waarvan de aanvangshuurprijs boven de op de ingangsdatum geldende liberalisatiegrens lag."@nl ;
@@ -410,6 +450,7 @@ bgc:geliberaliseerde-huurwoning a skos:Concept ;
 
 bgc:huurverhoging a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huurverhoging"@nl ;
     skos:definition "Verhoging van de huurprijs van een woonruimte binnen de wettelijke of contractuele grenzen."@nl ;
     rdfs:comment "De jaarlijkse huurverhoging is wettelijk gemaximeerd; de maximale percentages verschillen per segment (laag, midden, vrije sector) en worden jaarlijks bekendgemaakt in de circulaire Huurprijsbeleid. Daarnaast kan de huurprijs stijgen na woningverbetering."@nl ;
@@ -428,6 +469,7 @@ bgc:inkomensafhankelijke-huurverhoging a skos:Concept ;
 
 bgc:huurtoeslag a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "huurtoeslag"@nl ;
     skos:altLabel "huursubsidie"@nl ;
     skos:definition "Inkomensafhankelijke tegemoetkoming van het Rijk in de kosten van het huren van een woonruimte."@nl ;
@@ -441,6 +483,7 @@ bgc:huurtoeslag a skos:Concept ;
 
 bgc:vastgoed a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "vastgoed"@nl ;
     skos:altLabel "onroerend goed"@nl, "onroerende zaak"@nl ;
     skos:definition "Grond en de gebouwen en werken die duurzaam met de grond zijn verenigd."@nl ;
@@ -473,6 +516,7 @@ bgc:woning a skos:Concept ;
 
 bgc:woonruimte a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "woonruimte"@nl ;
     skos:definition "Besloten ruimte die, al dan niet tezamen met een of meer andere ruimten, bestemd of geschikt is voor bewoning door een huishouden."@nl ;
     rdfs:comment "Woonruimte is breder dan woning: ook een kamer of een woonwagen is woonruimte. Het is de gangbare term in het huurrecht en de woonruimteverdeling."@nl ;
@@ -503,6 +547,7 @@ bgc:onzelfstandige-woonruimte a skos:Concept ;
 
 bgc:verhuureenheid a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "verhuureenheid"@nl ;
     skos:altLabel "verhuurbare eenheid"@nl, "VHE"@nl, "eenheid"@nl ;
     skos:definition "Kleinste eenheid van vastgoed die afzonderlijk verhuurd wordt of verhuurd kan worden en waarvoor een afzonderlijke huurovereenkomst kan worden gesloten."@nl ;
@@ -524,6 +569,7 @@ bgc:complex a skos:Concept ;
 
 bgc:pand a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "pand"@nl ;
     skos:definition "Kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is."@nl ;
     rdfs:comment "Pand is een begrip uit de Basisregistratie Adressen en Gebouwen (BAG). Een pand kan meerdere verblijfsobjecten bevatten, zoals een flatgebouw met appartementen."@nl ;
@@ -533,6 +579,7 @@ bgc:pand a skos:Concept ;
 
 bgc:verblijfsobject a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "verblijfsobject"@nl ;
     skos:definition "Kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige of recreatieve doeleinden geschikte eenheid van gebruik, die ontsloten wordt via een eigen afsluitbare toegang, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is."@nl ;
     rdfs:comment "Verblijfsobject is een begrip uit de Basisregistratie Adressen en Gebouwen (BAG). Een verblijfsobject met woonfunctie komt in de praktijk grotendeels overeen met een zelfstandige woning."@nl ;
@@ -542,6 +589,7 @@ bgc:verblijfsobject a skos:Concept ;
 
 bgc:nieuwbouw a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "nieuwbouw"@nl ;
     skos:definition "Realisatie van een nieuw gebouw of nieuwe woongelegenheden."@nl ;
     rdfs:comment "Nieuwbouw kan plaatsvinden op een onbebouwde locatie (uitbreiding) of op een locatie waar bestaand vastgoed is gesloopt (vervangende nieuwbouw)."@nl ;
@@ -561,6 +609,7 @@ bgc:vervangende-nieuwbouw a skos:Concept ;
 
 bgc:sloop a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "sloop"@nl ;
     skos:definition "Afbraak van een gebouw of een deel daarvan."@nl ;
     rdfs:comment "Sloop vindt bij corporaties meestal plaats als onderdeel van vervangende nieuwbouw of herstructurering van een buurt."@nl ;
@@ -569,6 +618,7 @@ bgc:sloop a skos:Concept ;
 
 bgc:renovatie a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "renovatie"@nl ;
     skos:definition "Gedeeltelijke vernieuwing van een gebouw of woonruimte door verandering of toevoeging, gericht op verbetering."@nl ;
     rdfs:comment "Bij renovatie verandert de woning wezenlijk, bijvoorbeeld door een nieuwe indeling, uitbreiding of ingrijpende verduurzaming. Dit onderscheidt renovatie van onderhoud, dat de bestaande kwaliteit in stand houdt."@nl ;
@@ -578,6 +628,7 @@ bgc:renovatie a skos:Concept ;
 
 bgc:onderhoud a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "onderhoud"@nl ;
     skos:definition "Werkzaamheden die de technische staat van vastgoed in stand houden of herstellen, met behoud van de bestaande kwaliteit."@nl ;
     rdfs:comment "Onderhoud varieert van het verhelpen van een klacht tot planmatig groot onderhoud. Verbetering van de woning valt onder renovatie of woningverbetering, met andere financiële en juridische gevolgen."@nl ;
@@ -586,6 +637,7 @@ bgc:onderhoud a skos:Concept ;
 
 bgc:verduurzaming a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "verduurzaming"@nl ;
     skos:definition "Geheel van maatregelen die het energiegebruik en de milieubelasting van vastgoed verminderen."@nl ;
     rdfs:comment "Voorbeelden zijn isolatie, zonnepanelen, warmtepompen en aansluiting op warmtenetten. Verduurzaming kan onderdeel zijn van onderhoud, renovatie of nieuwbouw."@nl ;
@@ -599,6 +651,7 @@ bgc:verduurzaming a skos:Concept ;
 
 bgc:mutatie a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "mutatie"@nl ;
     skos:definition "Proces waarbij een verhuureenheid van huurder wisselt."@nl ;
     rdfs:comment "Een mutatie begint met de huuropzegging van de vertrekkende huurder en eindigt met de ingangsdatum van de nieuwe huurovereenkomst. Vaak vindt in die periode mutatieonderhoud plaats en wordt de huurprijs op de streefhuur gezet."@nl ;
@@ -608,6 +661,7 @@ bgc:mutatie a skos:Concept ;
 
 bgc:leegstand a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "leegstand"@nl ;
     skos:definition "Periode waarin een verhuureenheid zonder huurder is."@nl ;
     rdfs:comment "Leegstand kan kort en gepland zijn (tijdens een mutatie of renovatie) of langdurig en ongewenst. Corporaties sturen op het beperken van leegstand en de bijbehorende huurderving."@nl ;
@@ -620,6 +674,7 @@ bgc:leegstand a skos:Concept ;
 
 bgc:volkshuisvestelijke-prestatie a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "volkshuisvestelijke prestatie"@nl ;
     skos:definition "Bijdrage van een woningcorporatie aan de volkshuisvestingsopgave, zoals de beschikbaarheid, betaalbaarheid en kwaliteit van woningen en de leefbaarheid van buurten."@nl ;
     rdfs:comment "Volkshuisvestelijke prestaties zijn het maatschappelijk resultaat van de corporatie. Ze worden vastgelegd in prestatieafspraken en verantwoord richting toezichthouders en belanghebbenden."@nl ;
@@ -628,6 +683,7 @@ bgc:volkshuisvestelijke-prestatie a skos:Concept ;
 
 bgc:prestatieafspraak a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "prestatieafspraak"@nl ;
     skos:definition "Afspraak tussen gemeente, woningcorporatie en huurdersorganisatie over de bijdrage van de corporatie aan de uitvoering van het gemeentelijke volkshuisvestingsbeleid."@nl ;
     rdfs:comment "Prestatieafspraken gaan bijvoorbeeld over nieuwbouwaantallen, betaalbaarheid, verduurzaming en leefbaarheid. Ze worden periodiek gemaakt en jaarlijks geactualiseerd. Op landelijk niveau bestaan daarnaast de Nationale prestatieafspraken tussen het Rijk, Aedes, de Woonbond en de VNG, die het kader vormen voor de lokale afspraken."@nl ;
@@ -636,6 +692,7 @@ bgc:prestatieafspraak a skos:Concept ;
 
 bgc:leefbaarheid a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "leefbaarheid"@nl ;
     skos:definition "Mate waarin de woonomgeving aansluit bij de eisen en wensen van de bewoners."@nl ;
     rdfs:comment "Corporaties dragen bij aan leefbaarheid in buurten waar zij bezit hebben, bijvoorbeeld via een schone en veilige woonomgeving, ontmoetingsruimten en de inzet van huismeesters."@nl ;
@@ -645,6 +702,7 @@ bgc:leefbaarheid a skos:Concept ;
 
 bgc:de-verantwoordingsinformatie a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "de Verantwoordingsinformatie"@nl ;
     skos:altLabel "dVi"@nl ;
     skos:definition "Jaarlijkse verantwoordingsinformatie die een woningcorporatie over het afgelopen verslagjaar aanlevert ten behoeve van het toezicht."@nl ;
@@ -654,6 +712,7 @@ bgc:de-verantwoordingsinformatie a skos:Concept ;
 
 bgc:de-prospectieve-informatie a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "de Prospectieve informatie"@nl ;
     skos:altLabel "dPi"@nl ;
     skos:definition "Jaarlijkse prognose-informatie waarin een woningcorporatie de voornemens voor de komende vijf jaren aanlevert ten behoeve van het toezicht."@nl ;
@@ -663,6 +722,7 @@ bgc:de-prospectieve-informatie a skos:Concept ;
 
 bgc:marktwaarde a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "marktwaarde"@nl ;
     skos:altLabel "marktwaarde in verhuurde staat"@nl ;
     skos:definition "Geschat bedrag waartegen vastgoed op de waardepeildatum zou worden overgedragen tussen een bereidwillige koper en een bereidwillige verkoper, in een marktconforme transactie en rekening houdend met de verhuurde staat."@nl ;
@@ -672,6 +732,7 @@ bgc:marktwaarde a skos:Concept ;
 
 bgc:beleidswaarde a skos:Concept ;
     skos:inScheme bgcs:begrippenkader-corporatiesector ;
+    skos:topConceptOf bgcs:begrippenkader-corporatiesector ;
     skos:prefLabel "beleidswaarde"@nl ;
     skos:definition "Waarde van het vastgoed die uitgaat van voortgezette verhuur volgens het beleid van de corporatie, afgeleid van de marktwaarde door aanpassingen voor beschikbaarheid, betaalbaarheid, kwaliteit en beheer."@nl ;
     rdfs:comment "De beleidswaarde laat zien wat het vastgoed waard is als de corporatie haar maatschappelijke taak blijft uitvoeren, en is de basis voor het financiële toezicht op corporaties."@nl ;
