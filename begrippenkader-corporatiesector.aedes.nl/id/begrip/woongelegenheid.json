@@ -15,12 +15,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vastgoed",
-    "prefLabel": {
-      "nl": "vastgoed"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuureenheid",

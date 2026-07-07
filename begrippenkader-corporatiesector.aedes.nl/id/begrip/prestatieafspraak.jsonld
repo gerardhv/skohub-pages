@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Afspraak tussen gemeente, woningcorporatie en huurdersorganisatie over de bijdrage van de corporatie aan de uitvoering van het gemeentelijke volkshuisvestingsbeleid."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
+    "prefLabel": {
+      "nl": "Sturing en verantwoording"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",

@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Door de overheid aangewezen diensten met een publiek belang waarvoor woningcorporaties compensatie mogen ontvangen, waaronder het bouwen, verhuren en beheren van sociale huurwoningen, het beheren van bepaald maatschappelijk vastgoed en het bijdragen aan leefbaarheid."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",

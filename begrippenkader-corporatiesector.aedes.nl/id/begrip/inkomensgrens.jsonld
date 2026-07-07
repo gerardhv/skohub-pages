@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Bedrag van het huishoudinkomen tot waar een huishouden behoort tot de doelgroep voor toewijzing van sociale huurwoningen."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/doelgroep",

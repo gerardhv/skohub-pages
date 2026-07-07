@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Activiteiten en vastgoed van een woningcorporatie die buiten de diensten van algemeen economisch belang vallen, zoals geliberaliseerde huurwoningen en commercieel vastgoed."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/diensten-van-algemeen-economisch-belang",

@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Afbraak van een gebouw of een deel daarvan."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
+    "prefLabel": {
+      "nl": "Vastgoed"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/nieuwbouw",

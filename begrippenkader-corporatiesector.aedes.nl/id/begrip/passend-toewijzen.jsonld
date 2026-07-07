@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Wettelijke verplichting van woningcorporaties om aan ten minste 95% van de huishoudens met recht op huurtoeslag een woning toe te wijzen met een huurprijs tot en met de voor dat huishouden toepasselijke aftoppingsgrens."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huishouden",

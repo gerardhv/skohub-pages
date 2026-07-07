@@ -12,6 +12,12 @@
       "Sectorale wetgeving definieert huurder niet zelfstandig; de betekenis volgt uit het huurrecht. De Woningwet rekent voor bepaalde toepassingen ook de onderhuurder die met toestemming van de corporatie huurt tot de huurders (artikel 1 Woningwet)."
     ]
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/actoren-en-doelgroepen",
+    "prefLabel": {
+      "nl": "Actoren en doelgroepen"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuurder",

@@ -15,6 +15,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/actoren-en-doelgroepen",
+    "prefLabel": {
+      "nl": "Actoren en doelgroepen"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurder",

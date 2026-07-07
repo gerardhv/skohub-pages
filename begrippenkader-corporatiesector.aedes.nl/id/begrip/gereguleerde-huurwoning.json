@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Woonruimte waarvan de huurprijs onder de wettelijke huurprijsbescherming van het woningwaarderingsstelsel valt."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
+    "prefLabel": {
+      "nl": "Huurovereenkomst en huurprijs"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/wet-betaalbare-huur",

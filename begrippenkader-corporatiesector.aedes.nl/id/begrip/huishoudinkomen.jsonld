@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Gezamenlijk verzamelinkomen van de bewoners van een woongelegenheid, met uitzondering van het inkomen van inwonende kinderen voor zover de wet dat bepaalt."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/bewoner",

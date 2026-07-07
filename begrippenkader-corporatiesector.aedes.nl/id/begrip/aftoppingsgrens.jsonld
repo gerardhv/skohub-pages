@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Huurprijsgrens uit de Wet op de huurtoeslag waarboven de huurtoeslag voor het meerdere wordt beperkt, afhankelijk van de omvang van het huishouden."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
+    "prefLabel": {
+      "nl": "Huurovereenkomst en huurprijs"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/passend-toewijzen",

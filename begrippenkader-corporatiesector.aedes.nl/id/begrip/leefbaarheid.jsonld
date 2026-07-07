@@ -12,6 +12,12 @@
       "In de Woningwet en het BTIV is de bijdrage van corporaties aan leefbaarheid een afgebakende taak binnen de diensten van algemeen economisch belang. In benchmark- en verantwoordingscontext is leefbaarheid daarnaast een kostencategorie."
     ]
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
+    "prefLabel": {
+      "nl": "Sturing en verantwoording"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/diensten-van-algemeen-economisch-belang",

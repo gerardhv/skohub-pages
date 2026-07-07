@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Geschat bedrag waartegen vastgoed op de waardepeildatum zou worden overgedragen tussen een bereidwillige koper en een bereidwillige verkoper, in een marktconforme transactie en rekening houdend met de verhuurde staat."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
+    "prefLabel": {
+      "nl": "Sturing en verantwoording"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/regeling-toegelaten-instellingen-volkshuisvesting",

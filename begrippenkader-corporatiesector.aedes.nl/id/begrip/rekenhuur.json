@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Huurprijs vermeerderd met een wettelijk bepaald deel van de servicekosten, gebruikt voor de berekening van de huurtoeslag."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
+    "prefLabel": {
+      "nl": "Huurovereenkomst en huurprijs"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurprijs",

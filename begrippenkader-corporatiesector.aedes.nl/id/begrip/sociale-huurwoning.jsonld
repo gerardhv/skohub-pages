@@ -5,18 +5,12 @@
     "nl": "sociale huurwoning"
   },
   "definition": {
-    "nl": "Huurwoning met een huurprijs bij aanvang van de huurovereenkomst tot en met de liberalisatiegrens, bestemd voor huishoudens met een laag inkomen."
+    "nl": "Huurwoning met een aanvangshuurprijs tot en met de maximale huurgrens voor de huurtoeslag (DAEB-huurgrens), bestemd voor huishoudens met een laag inkomen."
   },
   "scopeNote": {
     "nl": [
       "Sociale huurwoning is geen wettelijk gedefinieerd begrip. In de praktijk wordt het vaak gelijkgesteld aan een gereguleerde huurwoning van een corporatie (DAEB); gemeentelijke verordeningen en het Besluit ruimtelijke ordening kennen eigen afbakeningen. Benoem in teksten welke afbakening is bedoeld."
     ]
-  },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woning",
-    "prefLabel": {
-      "nl": "woning"
-    }
   },
   "related": [
     {
@@ -44,15 +38,15 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/liberalisatiegrens",
-      "prefLabel": {
-        "nl": "liberalisatiegrens"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/gereguleerde-huurwoning",
       "prefLabel": {
         "nl": "gereguleerde huurwoning"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurtoeslag",
+      "prefLabel": {
+        "nl": "huurtoeslag"
       }
     }
   ],

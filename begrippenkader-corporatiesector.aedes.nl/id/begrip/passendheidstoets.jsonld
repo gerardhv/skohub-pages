@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Controle voorafgaand aan de toewijzing of de huurprijs van de woning past bij het inkomen en de samenstelling van het huishouden."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
+    "prefLabel": {
+      "nl": "DAEB en toewijzing"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/passend-toewijzen",

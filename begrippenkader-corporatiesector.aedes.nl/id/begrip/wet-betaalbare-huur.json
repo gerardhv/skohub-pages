@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Wet die de huurprijsbescherming uitbreidt naar het middenhuursegment en de toepassing van het woningwaarderingsstelsel dwingend maakt."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/wet-en-regelgeving",
+    "prefLabel": {
+      "nl": "Wet- en regelgeving"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningwaarderingsstelsel",

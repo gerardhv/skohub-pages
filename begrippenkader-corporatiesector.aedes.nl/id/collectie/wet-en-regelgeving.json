@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/wet-en-regelgeving",
-  "type": "Collection",
+  "type": "Concept",
   "prefLabel": {
     "nl": "Wet- en regelgeving"
   },
-  "member": [
+  "narrower": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningwet",
       "prefLabel": {
@@ -39,6 +39,27 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningwaarderingsstelsel",
       "prefLabel": {
         "nl": "woningwaarderingsstelsel"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
       }
     }
   ],

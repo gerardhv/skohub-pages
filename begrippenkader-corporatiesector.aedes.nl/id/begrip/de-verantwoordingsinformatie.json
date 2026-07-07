@@ -12,6 +12,12 @@
   "definition": {
     "nl": "Jaarlijkse verantwoordingsinformatie die een woningcorporatie over het afgelopen verslagjaar aanlevert ten behoeve van het toezicht."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
+    "prefLabel": {
+      "nl": "Sturing en verantwoording"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/regeling-toegelaten-instellingen-volkshuisvesting",

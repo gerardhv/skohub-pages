@@ -7,6 +7,12 @@
   "definition": {
     "nl": "Waarde van het vastgoed die uitgaat van voortgezette verhuur volgens het beleid van de corporatie, afgeleid van de marktwaarde door aanpassingen voor beschikbaarheid, betaalbaarheid, kwaliteit en beheer."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
+    "prefLabel": {
+      "nl": "Sturing en verantwoording"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vastgoed",

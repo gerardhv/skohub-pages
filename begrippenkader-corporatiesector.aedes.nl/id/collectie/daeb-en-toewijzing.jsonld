@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
-  "type": "Collection",
+  "type": "Concept",
   "prefLabel": {
     "nl": "DAEB en toewijzing"
   },
-  "member": [
+  "narrower": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/diensten-van-algemeen-economisch-belang",
       "prefLabel": {
@@ -51,6 +51,27 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huishoudinkomen",
       "prefLabel": {
         "nl": "huishoudinkomen"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
       }
     }
   ],

@@ -6,11 +6,22 @@
   },
   "altLabel": {
     "nl": [
-      "huurtoeslaggrens"
+      "middenhuurgrens"
     ]
   },
   "definition": {
-    "nl": "Huurprijsgrens die bepaalt of een huurovereenkomst bij aanvang tot het gereguleerde dan wel het geliberaliseerde segment behoort."
+    "nl": "Huurprijsgrens die bepaalt of een huurovereenkomst voor een zelfstandige woning bij aanvang tot het gereguleerde dan wel het geliberaliseerde segment behoort."
+  },
+  "scopeNote": {
+    "nl": [
+      "Tot 1 juli 2024 was de liberalisatiegrens gelijk aan de maximale huurgrens voor de huurtoeslag; sindsdien zijn deze grenzen uiteengelopen. De huurtoeslaggrens (ook DAEB-huurgrens genoemd) begrenst het lage segment, de liberalisatiegrens het middensegment."
+    ]
+  },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
+    "prefLabel": {
+      "nl": "Huurovereenkomst en huurprijs"
+    }
   },
   "related": [
     {
@@ -26,9 +37,9 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/maximale-huurprijs",
       "prefLabel": {
-        "nl": "sociale huurwoning"
+        "nl": "maximale huurprijs"
       }
     },
     {

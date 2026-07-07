@@ -13,12 +13,6 @@
   "definition": {
     "nl": "Nieuwbouw op een locatie waar bestaand vastgoed daarvoor wordt gesloopt."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/nieuwbouw",
-    "prefLabel": {
-      "nl": "nieuwbouw"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sloop",

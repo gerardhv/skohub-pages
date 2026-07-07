@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-  "type": "Collection",
+  "type": "Concept",
   "prefLabel": {
     "nl": "Vastgoed"
   },
-  "member": [
+  "narrower": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vastgoed",
       "prefLabel": {
@@ -99,6 +99,27 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verduurzaming",
       "prefLabel": {
         "nl": "verduurzaming"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
       }
     }
   ],
