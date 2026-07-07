@@ -12,23 +12,11 @@
   "definition": {
     "nl": "Inkomensafhankelijke tegemoetkoming van het Rijk in de kosten van het huren van een woonruimte."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-    "prefLabel": {
-      "nl": "Huurovereenkomst en huurprijs"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/doelgroep",
       "prefLabel": {
         "nl": "doelgroep"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
-      "prefLabel": {
-        "nl": "sociale huurwoning"
       }
     },
     {
@@ -56,6 +44,12 @@
       }
     },
     {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "prefLabel": {
+        "nl": "sociale huurwoning"
+      }
+    },
+    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/zelfstandige-woning",
       "prefLabel": {
         "nl": "zelfstandige woning"
@@ -73,6 +67,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -12,12 +12,6 @@
   "definition": {
     "nl": "Ministeriële regeling die het Besluit toegelaten instellingen volkshuisvesting nader uitwerkt, onder meer met voorschriften voor de verantwoordings- en prognose-informatie."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/wet-en-regelgeving",
-    "prefLabel": {
-      "nl": "Wet- en regelgeving"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/besluit-toegelaten-instellingen-volkshuisvesting",
@@ -55,6 +49,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -14,12 +14,6 @@
   "definition": {
     "nl": "Stelsel waarmee de kwaliteit van een woonruimte in punten wordt gewaardeerd en waarmee de maximale huurprijs van die woonruimte wordt bepaald."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/wet-en-regelgeving",
-    "prefLabel": {
-      "nl": "Wet- en regelgeving"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/wet-betaalbare-huur",
@@ -63,6 +57,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -12,13 +12,13 @@
       "Sociale huurwoning is geen wettelijk gedefinieerd begrip. In de praktijk wordt het vaak gelijkgesteld aan een gereguleerde huurwoning van een corporatie (DAEB); gemeentelijke verordeningen en het Besluit ruimtelijke ordening kennen eigen afbakeningen. Benoem in teksten welke afbakening is bedoeld."
     ]
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woning",
+    "prefLabel": {
+      "nl": "woning"
+    }
+  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
-      "prefLabel": {
-        "nl": "woningcorporatie"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/doelgroep",
       "prefLabel": {
@@ -47,6 +47,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurtoeslag",
       "prefLabel": {
         "nl": "huurtoeslag"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
+      "prefLabel": {
+        "nl": "woningcorporatie"
       }
     }
   ],

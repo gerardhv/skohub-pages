@@ -7,19 +7,7 @@
   "definition": {
     "nl": "Werkzaamheden die de technische staat van vastgoed in stand houden of herstellen, met behoud van de bestaande kwaliteit."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-    "prefLabel": {
-      "nl": "Vastgoed"
-    }
-  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
-      "prefLabel": {
-        "nl": "complex"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/renovatie",
       "prefLabel": {
@@ -30,6 +18,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verduurzaming",
       "prefLabel": {
         "nl": "verduurzaming"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
+      "prefLabel": {
+        "nl": "complex"
       }
     }
   ],
@@ -44,6 +38,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -1,16 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/actoren-en-doelgroepen",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "Actoren en doelgroepen"
   },
-  "narrower": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
-      "prefLabel": {
-        "nl": "woningcorporatie"
-      }
-    },
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuurder",
       "prefLabel": {
@@ -46,26 +40,11 @@
       "prefLabel": {
         "nl": "doelgroep"
       }
-    }
-  ],
-  "inScheme": [
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
-      }
-    }
-  ],
-  "inSchemeAll": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
+      "prefLabel": {
+        "nl": "woningcorporatie"
       }
     }
   ],

@@ -12,12 +12,6 @@
   "definition": {
     "nl": "Woonruimte waarvan de huurprijs onder de wettelijke huurprijsbescherming van het woningwaarderingsstelsel valt."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-    "prefLabel": {
-      "nl": "Huurovereenkomst en huurprijs"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/wet-betaalbare-huur",
@@ -32,12 +26,6 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
-      "prefLabel": {
-        "nl": "sociale huurwoning"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/liberalisatiegrens",
       "prefLabel": {
         "nl": "liberalisatiegrens"
@@ -47,6 +35,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/geliberaliseerde-huurwoning",
       "prefLabel": {
         "nl": "geliberaliseerde huurwoning"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "prefLabel": {
+        "nl": "sociale huurwoning"
       }
     }
   ],
@@ -61,6 +55,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

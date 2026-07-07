@@ -12,23 +12,11 @@
       "De afbakening verschilt per regeling: de doelgroep voor toewijzing van DAEB-woongelegenheden (inkomensgrens), de doelgroep voor huurtoeslag en de doelgroep voor passend toewijzen zijn verschillende, deels overlappende groepen. Benoem in teksten welke afbakening is bedoeld."
     ]
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/actoren-en-doelgroepen",
-    "prefLabel": {
-      "nl": "Actoren en doelgroepen"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huishouden",
       "prefLabel": {
         "nl": "huishouden"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
-      "prefLabel": {
-        "nl": "sociale huurwoning"
       }
     },
     {
@@ -48,6 +36,12 @@
       "prefLabel": {
         "nl": "huurtoeslag"
       }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "prefLabel": {
+        "nl": "sociale huurwoning"
+      }
     }
   ],
   "inScheme": [
@@ -61,6 +55,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -7,19 +7,7 @@
   "definition": {
     "nl": "Wet die het stelsel van de volkshuisvesting regelt, waaronder de toelating van, het werkdomein van en het toezicht op woningcorporaties."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/wet-en-regelgeving",
-    "prefLabel": {
-      "nl": "Wet- en regelgeving"
-    }
-  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
-      "prefLabel": {
-        "nl": "woningcorporatie"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/besluit-toegelaten-instellingen-volkshuisvesting",
       "prefLabel": {
@@ -30,6 +18,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/prestatieafspraak",
       "prefLabel": {
         "nl": "prestatieafspraak"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
+      "prefLabel": {
+        "nl": "woningcorporatie"
       }
     }
   ],
@@ -44,6 +38,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

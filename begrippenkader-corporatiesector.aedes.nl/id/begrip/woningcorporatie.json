@@ -13,6 +13,12 @@
   "definition": {
     "nl": "Vereniging of stichting die zich ten doel stelt uitsluitend op het gebied van de volkshuisvesting werkzaam te zijn en die daartoe op grond van de Woningwet is toegelaten."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuurder",
+    "prefLabel": {
+      "nl": "verhuurder"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningwet",
@@ -27,12 +33,6 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
-      "prefLabel": {
-        "nl": "sociale huurwoning"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/volkshuisvestelijke-prestatie",
       "prefLabel": {
         "nl": "volkshuisvestelijke prestatie"
@@ -42,6 +42,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/prestatieafspraak",
       "prefLabel": {
         "nl": "prestatieafspraak"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "prefLabel": {
+        "nl": "sociale huurwoning"
       }
     }
   ],

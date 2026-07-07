@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/daeb-en-toewijzing",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "DAEB en toewijzing"
   },
-  "narrower": [
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/diensten-van-algemeen-economisch-belang",
       "prefLabel": {
@@ -15,12 +15,6 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/niet-daeb",
       "prefLabel": {
         "nl": "niet-DAEB"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
-      "prefLabel": {
-        "nl": "sociale huurwoning"
       }
     },
     {
@@ -52,26 +46,11 @@
       "prefLabel": {
         "nl": "huishoudinkomen"
       }
-    }
-  ],
-  "inScheme": [
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
-      }
-    }
-  ],
-  "inSchemeAll": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sociale-huurwoning",
+      "prefLabel": {
+        "nl": "sociale huurwoning"
       }
     }
   ],

@@ -13,12 +13,6 @@
   "definition": {
     "nl": "Zelfstandige woning met een huurovereenkomst waarvan de aanvangshuurprijs boven de op de ingangsdatum geldende liberalisatiegrens lag."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-    "prefLabel": {
-      "nl": "Huurovereenkomst en huurprijs"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/niet-daeb",
@@ -50,6 +44,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

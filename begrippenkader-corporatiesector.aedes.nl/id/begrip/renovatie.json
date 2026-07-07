@@ -12,19 +12,7 @@
       "In het Burgerlijk Wetboek omvat renovatie ook sloop met vervangende nieuwbouw; in het dagelijks spraakgebruik wordt renovatie meestal beperkt tot vernieuwing van de bestaande woning."
     ]
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-    "prefLabel": {
-      "nl": "Vastgoed"
-    }
-  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vervangende-nieuwbouw",
-      "prefLabel": {
-        "nl": "vervangende nieuwbouw"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onderhoud",
       "prefLabel": {
@@ -35,6 +23,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verduurzaming",
       "prefLabel": {
         "nl": "verduurzaming"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vervangende-nieuwbouw",
+      "prefLabel": {
+        "nl": "vervangende nieuwbouw"
       }
     }
   ],
@@ -49,6 +43,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

@@ -15,12 +15,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-    "prefLabel": {
-      "nl": "Vastgoed"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/sloop",
@@ -46,6 +40,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

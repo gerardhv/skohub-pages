@@ -1,26 +1,14 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "Vastgoed"
   },
-  "narrower": [
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vastgoed",
       "prefLabel": {
         "nl": "vastgoed"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
-      "prefLabel": {
-        "nl": "woongelegenheid"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woning",
-      "prefLabel": {
-        "nl": "woning"
       }
     },
     {
@@ -30,27 +18,9 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/zelfstandige-woning",
-      "prefLabel": {
-        "nl": "zelfstandige woning"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onzelfstandige-woonruimte",
-      "prefLabel": {
-        "nl": "onzelfstandige woonruimte"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuureenheid",
       "prefLabel": {
         "nl": "verhuureenheid"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
-      "prefLabel": {
-        "nl": "complex"
       }
     },
     {
@@ -69,12 +39,6 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/nieuwbouw",
       "prefLabel": {
         "nl": "nieuwbouw"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vervangende-nieuwbouw",
-      "prefLabel": {
-        "nl": "vervangende nieuwbouw"
       }
     },
     {
@@ -100,26 +64,41 @@
       "prefLabel": {
         "nl": "verduurzaming"
       }
-    }
-  ],
-  "inScheme": [
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
+      "prefLabel": {
+        "nl": "woongelegenheid"
       }
-    }
-  ],
-  "inSchemeAll": [
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woning",
+      "prefLabel": {
+        "nl": "woning"
+      }
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/zelfstandige-woning",
+      "prefLabel": {
+        "nl": "zelfstandige woning"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onzelfstandige-woonruimte",
+      "prefLabel": {
+        "nl": "onzelfstandige woonruimte"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
+      "prefLabel": {
+        "nl": "complex"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vervangende-nieuwbouw",
+      "prefLabel": {
+        "nl": "vervangende nieuwbouw"
       }
     }
   ],

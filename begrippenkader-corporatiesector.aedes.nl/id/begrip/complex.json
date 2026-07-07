@@ -17,13 +17,13 @@
       "De wettelijke definitie komt uit het overlegrecht van huurders. In de bedrijfsvoering hanteren corporaties eigen complexindelingen (administratief, technisch of financieel), die per corporatie en per doel kunnen verschillen."
     ]
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/vastgoed",
+    "prefLabel": {
+      "nl": "vastgoed"
+    }
+  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
-      "prefLabel": {
-        "nl": "woongelegenheid"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuureenheid",
       "prefLabel": {
@@ -34,6 +34,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onderhoud",
       "prefLabel": {
         "nl": "onderhoud"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
+      "prefLabel": {
+        "nl": "woongelegenheid"
       }
     }
   ],

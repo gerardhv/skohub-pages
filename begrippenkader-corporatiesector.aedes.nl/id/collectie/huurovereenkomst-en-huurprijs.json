@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "Huurovereenkomst en huurprijs"
   },
-  "narrower": [
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurovereenkomst",
       "prefLabel": {
@@ -78,36 +78,15 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/inkomensafhankelijke-huurverhoging",
-      "prefLabel": {
-        "nl": "inkomensafhankelijke huurverhoging"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurtoeslag",
       "prefLabel": {
         "nl": "huurtoeslag"
       }
-    }
-  ],
-  "inScheme": [
+    },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
-      }
-    }
-  ],
-  "inSchemeAll": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/inkomensafhankelijke-huurverhoging",
+      "prefLabel": {
+        "nl": "inkomensafhankelijke huurverhoging"
       }
     }
   ],

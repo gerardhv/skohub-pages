@@ -12,12 +12,6 @@
   "definition": {
     "nl": "Overeenkomst waarbij de verhuurder zich verbindt aan de huurder een zaak of een gedeelte daarvan in gebruik te verstrekken en de huurder zich verbindt tot een tegenprestatie."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-    "prefLabel": {
-      "nl": "Huurovereenkomst en huurprijs"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verhuurder",
@@ -73,6 +67,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

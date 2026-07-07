@@ -17,12 +17,6 @@
       "Tot 1 juli 2024 was de liberalisatiegrens gelijk aan de maximale huurgrens voor de huurtoeslag; sindsdien zijn deze grenzen uiteengelopen. De huurtoeslaggrens (ook DAEB-huurgrens genoemd) begrenst het lage segment, de liberalisatiegrens het middensegment."
     ]
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/huurovereenkomst-en-huurprijs",
-    "prefLabel": {
-      "nl": "Huurovereenkomst en huurprijs"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/wet-betaalbare-huur",
@@ -72,6 +66,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

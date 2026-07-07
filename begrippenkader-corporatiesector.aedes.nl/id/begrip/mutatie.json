@@ -12,12 +12,6 @@
       "Deze definitie betreft de mutatie in het verhuurproces van het woningcorporatiedomein. Het woord mutatie wordt daarbuiten ook gebruikt voor andere wijzigingen, zoals financiële mutaties in de boekhouding of mutaties in registraties; die vallen buiten dit begrip."
     ]
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/verhuurproces-en-beheer",
-    "prefLabel": {
-      "nl": "Verhuurproces en beheer"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/toewijzing",
@@ -61,6 +55,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

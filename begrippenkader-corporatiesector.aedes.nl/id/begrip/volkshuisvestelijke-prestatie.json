@@ -7,19 +7,7 @@
   "definition": {
     "nl": "Bijdrage van een woningcorporatie aan de volkshuisvestingsopgave, zoals de beschikbaarheid, betaalbaarheid en kwaliteit van woningen en de leefbaarheid van buurten."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
-    "prefLabel": {
-      "nl": "Sturing en verantwoording"
-    }
-  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
-      "prefLabel": {
-        "nl": "woningcorporatie"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/prestatieafspraak",
       "prefLabel": {
@@ -30,6 +18,12 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/leefbaarheid",
       "prefLabel": {
         "nl": "leefbaarheid"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
+      "prefLabel": {
+        "nl": "woningcorporatie"
       }
     }
   ],
@@ -44,6 +38,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

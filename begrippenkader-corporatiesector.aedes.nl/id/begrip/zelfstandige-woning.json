@@ -26,15 +26,15 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onzelfstandige-woonruimte",
-      "prefLabel": {
-        "nl": "onzelfstandige woonruimte"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/verblijfsobject",
       "prefLabel": {
         "nl": "verblijfsobject"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/onzelfstandige-woonruimte",
+      "prefLabel": {
+        "nl": "onzelfstandige woonruimte"
       }
     }
   ],

@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "Sturing en verantwoording"
   },
-  "narrower": [
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/volkshuisvestelijke-prestatie",
       "prefLabel": {
@@ -45,27 +45,6 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/beleidswaarde",
       "prefLabel": {
         "nl": "beleidswaarde"
-      }
-    }
-  ],
-  "inScheme": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
-      }
-    }
-  ],
-  "inSchemeAll": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
       }
     }
   ],

@@ -7,19 +7,7 @@
   "definition": {
     "nl": "Afspraak tussen gemeente, woningcorporatie en huurdersorganisatie over de bijdrage van de corporatie aan de uitvoering van het gemeentelijke volkshuisvestingsbeleid."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/sturing-en-verantwoording",
-    "prefLabel": {
-      "nl": "Sturing en verantwoording"
-    }
-  },
   "related": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
-      "prefLabel": {
-        "nl": "woningcorporatie"
-      }
-    },
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningwet",
       "prefLabel": {
@@ -37,6 +25,12 @@
       "prefLabel": {
         "nl": "leefbaarheid"
       }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woningcorporatie",
+      "prefLabel": {
+        "nl": "woningcorporatie"
+      }
     }
   ],
   "inScheme": [
@@ -50,6 +44,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

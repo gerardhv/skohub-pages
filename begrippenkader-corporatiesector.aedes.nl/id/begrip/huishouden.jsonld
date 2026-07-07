@@ -12,12 +12,6 @@
       "De precieze afbakening verschilt per regeling. Voor de huurtoeslag telt bijvoorbeeld de samenstelling volgens de Wet op de huurtoeslag; huisvestingsverordeningen en het BTIV kennen eigen toepassingen. Controleer bij gebruik in een specifieke context welke afbakening geldt."
     ]
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/actoren-en-doelgroepen",
-    "prefLabel": {
-      "nl": "Actoren en doelgroepen"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurder",
@@ -67,6 +61,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

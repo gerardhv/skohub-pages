@@ -1,10 +1,10 @@
 {
   "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/verhuurproces-en-beheer",
-  "type": "Concept",
+  "type": "Collection",
   "prefLabel": {
     "nl": "Verhuurproces en beheer"
   },
-  "narrower": [
+  "member": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/mutatie",
       "prefLabel": {
@@ -15,27 +15,6 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/leegstand",
       "prefLabel": {
         "nl": "leegstand"
-      }
-    }
-  ],
-  "inScheme": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
-      }
-    }
-  ],
-  "inSchemeAll": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
-      "title": {
-        "nl": "Begrippenkader Corporatiesector"
       }
     }
   ],

@@ -14,12 +14,6 @@
   "definition": {
     "nl": "Kleinste eenheid van vastgoed die afzonderlijk verhuurd wordt of verhuurd kan worden en waarvoor een afzonderlijke huurovereenkomst kan worden gesloten."
   },
-  "broader": {
-    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/collectie/vastgoed",
-    "prefLabel": {
-      "nl": "Vastgoed"
-    }
-  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/huurovereenkomst",
@@ -40,18 +34,6 @@
       }
     },
     {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
-      "prefLabel": {
-        "nl": "woongelegenheid"
-      }
-    },
-    {
-      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
-      "prefLabel": {
-        "nl": "complex"
-      }
-    },
-    {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/mutatie",
       "prefLabel": {
         "nl": "mutatie"
@@ -67,6 +49,18 @@
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/de-verantwoordingsinformatie",
       "prefLabel": {
         "nl": "de Verantwoordingsinformatie"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
+      "prefLabel": {
+        "nl": "woongelegenheid"
+      }
+    },
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/complex",
+      "prefLabel": {
+        "nl": "complex"
       }
     }
   ],
@@ -86,6 +80,14 @@
   "inSchemeAll": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://begrippenkader-corporatiesector.aedes.nl/id/scheme/begrippenkader-corporatiesector",
+      "title": {
+        "nl": "Begrippenkader Corporatiesector"
+      }
     }
   ],
   "@context": {

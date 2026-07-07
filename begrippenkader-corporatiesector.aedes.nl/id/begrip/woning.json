@@ -26,6 +26,12 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woongelegenheid",
+    "prefLabel": {
+      "nl": "woongelegenheid"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woonruimte",

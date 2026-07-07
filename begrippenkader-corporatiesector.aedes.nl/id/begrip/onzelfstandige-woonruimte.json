@@ -13,6 +13,12 @@
   "definition": {
     "nl": "Woonruimte waarbij de bewoner voor wezenlijke voorzieningen, zoals keuken of sanitair, gebruikmaakt van voorzieningen buiten de eigen woonruimte."
   },
+  "broader": {
+    "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/woonruimte",
+    "prefLabel": {
+      "nl": "woonruimte"
+    }
+  },
   "related": [
     {
       "id": "http://begrippenkader-corporatiesector.aedes.nl/id/begrip/zelfstandige-woning",
